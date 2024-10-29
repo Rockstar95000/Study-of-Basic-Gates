@@ -1,4 +1,4 @@
-### study-of-basic-gates
+### Study-of-Basic-Gates
 
 **AIM:** 
 
@@ -63,7 +63,7 @@ Y= A⊕B
 
 
 **PROGRAM**
-'''
+~~~
 module EXP01(a,b,f1,f2,f3,f4,f5,f6,f7);
 input a,b;
 output f1,f2,f3,f4,f5,f6,f7;
@@ -75,7 +75,7 @@ assign f5=~f2;
 assign f6=a^b;
 assign f7=~(a^b);
 endmodule
-'''
+~~~
 
  Developed by: Viswajith Lalithram R.V
  RegisterNumber: 24000985
